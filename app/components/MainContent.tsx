@@ -7,11 +7,16 @@ const MainContent = () => {
   return (
     <div className="text-center flex-row space-y-10">
       <h1 className="pt-5 m-auto font-normal text-center text-6xl">
-        Life is simple{' '}
+        Innovate your Business with Custom{' '}
         <p className="text-[#eca400ff] font-semibold">
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+            words={[
+              'Web App',
+              'Mobile App',
+              'Desktop App',
+              'Ashmif Office Solutions!',
+            ]}
             loop={50}
             cursor
             cursorStyle="|"
