@@ -5,10 +5,10 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const MainContent = () => {
   return (
-    <div className="App">
-      <h1 className="pt-5 m-auto font-normal text-center text-3xl">
+    <div className="text-center flex-row">
+      <h1 className="pt-5 m-auto font-normal text-center text-6xl">
         Life is simple{' '}
-        <span className="text-[#eca400ff] font-bold">
+        <p className="text-[#eca400ff] font-semibold">
           {/* Style will be inherited from the parent element */}
           <Typewriter
             words={['Eat', 'Sleep', 'Code', 'Repeat!']}
@@ -19,7 +19,7 @@ const MainContent = () => {
             deleteSpeed={50}
             delaySpeed={1000}
           />
-        </span>
+        </p>
       </h1>
     </div>
   )
