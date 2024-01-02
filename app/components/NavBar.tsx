@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-import { AiFillCaretUp } from 'react-icons/ai'
+import { AiFillCheckCircle } from 'react-icons/ai'
 import classnames from 'classnames'
 
 const NavBar = () => {
@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <nav className="flex justify-between border-b mb-5 px-5 h-14 items-center">
       <Link href="/">
-        <AiFillCaretUp />
+        <AiFillCheckCircle />
       </Link>
       <ul className="flex space-x-6">
         {links.map((link) => (
@@ -27,7 +27,7 @@ const NavBar = () => {
             key={link.href}
             href={link.href}
             className={classnames({
-              'text-slate-950 underline': link.href === currentPath,
+              'text-slate-950 font-bold': link.href === currentPath,
               'text-slate-800': link.href !== currentPath,
               'hover:text-slate-600 transition-colors': true,
             })}
