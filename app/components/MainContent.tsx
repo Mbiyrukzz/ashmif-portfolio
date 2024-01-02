@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const MainContent = () => {
   return (
-    <div className="text-center flex-row">
+    <div className="text-center flex-row space-y-10">
       <h1 className="pt-5 m-auto font-normal text-center text-6xl">
         Life is simple{' '}
         <p className="text-[#eca400ff] font-semibold">
@@ -21,6 +21,11 @@ const MainContent = () => {
           />
         </p>
       </h1>
+      <div>
+        <p className="text-2xl text-center text-slate-600">
+          "Let OUR Solutions WORK For YOU!"
+        </p>
+      </div>
     </div>
   )
   // return (
