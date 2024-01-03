@@ -8,6 +8,7 @@ export default function Home() {
     <main className="">
       <MainContent />
       <ActionButtons />
+      <AboutUs />
     </main>
   )
 }
