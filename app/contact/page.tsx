@@ -1,7 +1,11 @@
 import React from 'react'
 
 const ContactPage = () => {
-  return <div>ContactPage</div>
+  return (
+    <div>
+      <p>This Page is Currenttly Under Maintenance</p>
+    </div>
+  )
 }
 
 export default ContactPage

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductsDetailsPage = () => {
+const OurServicesPage = () => {
   return (
     <div>
       <p>This Page is Currenttly Under Maintenance</p>
@@ -8,4 +8,4 @@ const ProductsDetailsPage = () => {
   )
 }
 
-export default ProductsDetailsPage
+export default OurServicesPage

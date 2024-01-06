@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import MainContent from './components/MainContent'
 import ActionButtons from './components/ActionButtons'
-import AboutUs from './components/AboutUs'
+import WeOfferBestServices from './components/WeOfferBestServices'
 
 export default function Home() {
   return (
     <main className="">
       <MainContent />
       <ActionButtons />
-      <AboutUs />
+      <WeOfferBestServices />
     </main>
   )
 }
