@@ -21,7 +21,7 @@ const NavBar = () => {
   return (
     <nav className="flex justify-between border-b mb-5 px-5 h-14 items-center">
       <Link href="/">
-        <Image src="/aoslogo.png" alt="aoslogo" width="25" height="25" />
+        <Image src="/aoslogo.png" alt="aoslogo" width="30" height="30" />
       </Link>
       <ul className="flex space-x-6">
         {links.map((link) => (
