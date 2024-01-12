@@ -7,7 +7,6 @@ const MainContent = () => {
   return (
     <div className="text-center flex-row space-y-10">
       <div>
-        {' '}
         <h1 className="pt-5 m-auto font-normal text-center text-6xl">
           Innovate your Business with Custom{' '}
           <p className="text-[#8338ec] font-semibold">
@@ -38,6 +37,14 @@ const MainContent = () => {
         <p className="text-2xl text-slate-800">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
           nemo laudantium necessitatibus ipsam.
+        </p>
+      </div>
+      <div>
+        <p className="text-center text-slate-600 text-xl">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
+          omnis voluptatibus aut, et placeat accusantium vero aliquam atque? In,
+          animi. Perferendis eius ea provident labore sunt incidunt
+          reprehenderit vel repudiandae.
         </p>
       </div>
     </div>

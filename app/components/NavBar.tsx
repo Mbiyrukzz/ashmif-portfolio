@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import React from 'react'
 import { AiFillCheckCircle } from 'react-icons/ai'
 import classnames from 'classnames'
+import Image from 'next/image'
 
 const NavBar = () => {
   const currentPath = usePathname()
@@ -20,7 +21,7 @@ const NavBar = () => {
   return (
     <nav className="flex justify-between border-b mb-5 px-5 h-14 items-center">
       <Link href="/">
-        <AiFillCheckCircle />
+        <Image src="/aoslogo.png" alt="aoslogo" width="25" height="25" />
       </Link>
       <ul className="flex space-x-6">
         {links.map((link) => (
