@@ -12,24 +12,80 @@ const WeOfferBestServices = () => {
           We Provide the Best Services
         </Heading>
       </Box>
-      <Box>
-        <Card size="2" style={{ maxWidth: 400 }} className="mt-2">
-          <Inset clip="padding-box" side="top" pb="current">
-            <Image
-              className="p-1 flex items-center text-center rounded-t-xl"
-              src="/smartfreight.png"
-              alt="Bold typography"
-              width="400"
-              height="140"
-            />
-          </Inset>
-          <Text as="p" size="3">
-            <Strong>Typography</Strong> is the art and technique of arranging
-            type to make written language legible, readable and appealing when
-            displayed.
-          </Text>
-        </Card>
-      </Box>
+      <div className="flex">
+        <Box>
+          <Card size="2" style={{ maxWidth: 400 }} className="mt-2">
+            <Inset clip="padding-box" side="top" pb="current">
+              <Image
+                className="p-1 flex items-center text-center rounded-t-xl"
+                src="/smartfreight.png"
+                alt="Bold typography"
+                width="400"
+                height="140"
+              />
+            </Inset>
+            <Text as="p" size="3">
+              <Strong>Typography</Strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </Text>
+          </Card>
+        </Box>
+        <Box>
+          <Card size="2" style={{ maxWidth: 400 }} className="mt-2">
+            <Inset clip="padding-box" side="top" pb="current">
+              <Image
+                className="p-1 flex items-center text-center rounded-t-xl"
+                src="/smartfreight.png"
+                alt="Bold typography"
+                width="400"
+                height="140"
+              />
+            </Inset>
+            <Text as="p" size="3">
+              <Strong>Typography</Strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </Text>
+          </Card>
+        </Box>
+        <Box>
+          <Card size="2" style={{ maxWidth: 400 }} className="mt-2">
+            <Inset clip="padding-box" side="top" pb="current">
+              <Image
+                className="p-1 flex items-center text-center rounded-t-xl"
+                src="/smartfreight.png"
+                alt="Bold typography"
+                width="400"
+                height="140"
+              />
+            </Inset>
+            <Text as="p" size="3">
+              <Strong>Typography</Strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </Text>
+          </Card>
+        </Box>
+        <Box>
+          <Card size="2" style={{ maxWidth: 400 }} className="mt-2">
+            <Inset clip="padding-box" side="top" pb="current">
+              <Image
+                className="p-1 flex items-center text-center rounded-t-xl"
+                src="/smartfreight.png"
+                alt="Bold typography"
+                width="400"
+                height="140"
+              />
+            </Inset>
+            <Text as="p" size="3">
+              <Strong>Typography</Strong> is the art and technique of arranging
+              type to make written language legible, readable and appealing when
+              displayed.
+            </Text>
+          </Card>
+        </Box>
+      </div>
     </Box>
   )
 }
