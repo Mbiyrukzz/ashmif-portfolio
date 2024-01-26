@@ -16,11 +16,11 @@ const Footer = () => {
           className="text-center mx-1"
         />
         <Box className="flex items-center">
-          <p className="mr-1">Copyright</p>
+          <p className="mr-1 text-slate-500">Copyright</p>
           <FaCopyright />
-          <p className="ml-1">2024</p>
+          <p className="ml-1 text-slate-500">2024</p>
         </Box>
-        <p>Let Our Solutions Work For You</p>
+        <p className="text-slate-500">Let Our Solutions Work For You</p>
       </Box>
       <Box></Box>
     </Grid>
