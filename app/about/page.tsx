@@ -1,9 +1,12 @@
 import React from 'react'
+import MainAbout from './MainAbout'
+import OurStory from './OurStory'
 
 const AboutUsPage = () => {
   return (
-    <div>
-      <p>This Page is Currenttly Under Maintenance</p>
+    <div className="justify-between">
+      <MainAbout />
+      <OurStory />
     </div>
   )
 }

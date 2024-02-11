@@ -3,6 +3,7 @@ import { FaCopyright } from 'react-icons/fa'
 
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -22,7 +23,9 @@ const Footer = () => {
         </Box>
         <p className="text-slate-500">Let Our Solutions Work For You</p>
       </Box>
-      <Box></Box>
+      <Box className="">
+        <Link href=""></Link>
+      </Box>
     </Grid>
   )
 }
