@@ -14,11 +14,7 @@ const WeOfferBestServices = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
         <div className="blog-card flex flex-col items-center md:items-start cursor-pointer">
           <div className="img-container rounded-md overflow-hidden w-3/4 sm:w-1/2 mx-auto md:w-full lg:h-48">
-            <img
-              src="https://images.unsplash.com/photo-1592609931095-54a2168ae893?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
-              className="object-cover"
-              alt="headerImage"
-            />
+            <img src="/weapp.png" className="object-cover" alt="headerImage" />
           </div>
           <h1 className="mt-4 text-xl font-semibold ">Web Apps</h1>
           <p className="my-4 text-sm font-light max-w-md ">
@@ -31,7 +27,7 @@ const WeOfferBestServices = () => {
         <div className="blog-card flex flex-col items-center md:items-start cursor-pointer">
           <div className="img-container rounded-md overflow-hidden w-3/4 sm:w-1/2 mx-auto md:w-full lg:h-48">
             <img
-              src="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+              src="/mobileapp.png"
               className="object-cover"
               alt="headerImage"
             />
@@ -47,7 +43,7 @@ const WeOfferBestServices = () => {
         <div className="blog-card flex flex-col items-center md:items-start cursor-pointer">
           <div className="img-container rounded-md overflow-hidden w-3/4 sm:w-1/2 mx-auto md:w-full lg:h-48">
             <img
-              src="https://images.unsplash.com/photo-1566837945700-30057527ade0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80"
+              src="/website.png"
               className="object-cover"
               alt="headerImage"
             />
