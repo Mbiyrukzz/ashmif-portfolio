@@ -7,12 +7,14 @@ const OurStory = () => {
       <Box className="mt-4 p-8 flex justify-around">
         <div className="w-1/2 p-2">
           <p className="text-xl font-normal tracking-wide  text-slate-600">
-            Ashmif Office Solutions LTD is an IT Solutions & Software Company
-            based in Mombasa providing custom software development, website
-            design and development, mobile and desktop apps development and
-            graphic designing. With a team of highly qualified, experienced, and
-            passionate professionals who strive to provide customers with
-            unparalleled Services and Products.
+            <span className="font-bold text-2xl">
+              Ashmif Office Solutions LTD
+            </span>{' '}
+            is an IT Solutions & Software Company based in Mombasa providing
+            custom software development, website design and development, mobile
+            and desktop apps development and graphic designing. With a team of
+            highly qualified, experienced, and passionate professionals who
+            strive to provide customers with unparalleled Services and Products.
             <h1 className="text-2xl font-bold text-[#8338ec] mt-4 ">
               OUR VISION
             </h1>

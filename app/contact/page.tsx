@@ -1,9 +1,10 @@
 import React from 'react'
+import Contact from './Contact'
 
 const ContactPage = () => {
   return (
     <div>
-      <p>This Page is Currenttly Under Maintenance</p>
+      <Contact />
     </div>
   )
 }
