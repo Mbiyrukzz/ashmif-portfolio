@@ -7,12 +7,12 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const MainContent = () => {
   return (
-    <Grid columns="2" gap="5" className="justify-between">
+    <Grid columns="2" gap="5" className="justify-between p-10">
       <Box>
         <div className="text-start flex-row space-y-10">
           <h1 className="pt-5 m-auto font-normal text-start text-6xl">
             Innovate your Business with Custom{' '}
-            <p className="text-[#8338ec] font-semibold">
+            <p className="text-[#6c63ff] font-semibold">
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={[
@@ -42,22 +42,14 @@ const MainContent = () => {
             nemo laudantium necessitatibus ipsam.
           </p>
         </div>
-        {/* <div>
-          <p className="text-center text-slate-600 text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
-            omnis voluptatibus aut, et placeat accusantium vero aliquam atque?
-            In, animi. Perferendis eius ea provident labore sunt incidunt
-            reprehenderit vel repudiandae.
-          </p>
-        </div> */}
       </Box>
       <Box>
         <Image
-          src="/mainpage.jpg"
+          src="/weapp.png"
           height="720"
           width="560"
           alt="mainphoto"
-          className="border-4 rounded-2xl border-[#8338ec]"
+          className="border-4 rounded-2xl border-[#6c63ff]"
         />
       </Box>
     </Grid>

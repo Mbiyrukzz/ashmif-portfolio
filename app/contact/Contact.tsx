@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white border-[#8338ec] border-2">
+    <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white border-[#6c63ff] border-2">
       <h1 className="text-2xl font-bold text-gray-900">Send a message</h1>
 
       <label className=" mt-8 text-gray-900 font-bold">
