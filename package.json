@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@radix-ui/themes": "^1.1.2",
     "@types/node": "20.10.6",
     "@types/nodemailer": "^6.4.14",

@@ -13,7 +13,7 @@ const WeOfferBestServices = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
         <div className="blog-card flex flex-col items-center md:items-start cursor-pointer">
           <div className="img-container rounded-md overflow-hidden w-3/4 sm:w-1/2 mx-auto md:w-full lg:h-48">
-            <img src="/weapp.png" className="object-cover" alt="headerImage" />
+            <img src="/webapp.png" className="object-cover" alt="headerImage" />
           </div>
           <h1 className="mt-4 text-xl font-semibold ">Web Apps</h1>
           <p className="my-4 text-md font-light max-w-md ">
