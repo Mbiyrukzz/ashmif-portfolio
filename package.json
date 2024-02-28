@@ -11,6 +11,7 @@
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@radix-ui/themes": "^1.1.2",
+    "@react-email/components": "^0.0.15",
     "@types/node": "20.10.6",
     "@types/nodemailer": "^6.4.14",
     "@types/react": "18.2.46",
@@ -25,6 +26,7 @@
     "react": "18.2.0",
     "react-card-slider-component": "^1.0.9",
     "react-dom": "18.2.0",
+    "react-email": "^2.1.0",
     "react-hook-form": "^7.50.1",
     "react-icons": "^4.11.0",
     "react-simple-typewriter": "^5.0.1",
