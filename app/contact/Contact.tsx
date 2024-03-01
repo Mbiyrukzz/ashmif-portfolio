@@ -10,6 +10,7 @@ const Contact = () => {
           Full name<span className="text-red-500">*</span>
         </label>
         <input
+          name="name"
           type="text"
           title="fullname"
           className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light "
@@ -19,6 +20,7 @@ const Contact = () => {
           E-mail<span className="text-red-500">*</span>
         </label>
         <input
+          name="email"
           type="email"
           title="email"
           className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-bold "
@@ -38,6 +40,7 @@ const Contact = () => {
           Message<span className="text-red-500">*</span>
         </label>
         <textarea
+          name="description"
           title="description"
           className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-bold "
         ></textarea>
