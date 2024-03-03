@@ -67,7 +67,7 @@ const Testimonials = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-500 font-normal">
+              <p className="mt-4 text-gray-500 font-light">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis
@@ -133,7 +133,7 @@ const Testimonials = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-500 font-normal">
+              <p className="mt-4 text-gray-500 font-light">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis
@@ -199,7 +199,7 @@ const Testimonials = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-500 font-normal">
+              <p className="mt-4 text-gray-500 font-light">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis

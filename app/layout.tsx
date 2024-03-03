@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import { Theme, ThemePanel } from '@radix-ui/themes'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import AllRIghts from './components/AllRIghts'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           <NavBar />
           <main className="p-5">{children}</main>
           <Footer />
+          <AllRIghts />
         </Theme>
       </body>
     </html>
