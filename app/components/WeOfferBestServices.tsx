@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const WeOfferBestServices = () => {
@@ -26,7 +27,7 @@ const WeOfferBestServices = () => {
             software.
           </p>
           <small className="text-gray-700 hover:border-4 hover:border-[#6c63ff] rounded-lg p-2 hover:font-medium ">
-            Read More
+            <Link href="/services/webapps">Read More</Link>
           </small>
         </div>
 
@@ -48,7 +49,7 @@ const WeOfferBestServices = () => {
             engagement, improve retention and increase revenue.
           </p>
           <small className="text-gray-700 hover:border-4 hover:border-[#6c63ff] rounded-lg p-2 hover:font-medium ">
-            Read More
+            <Link href="/services/mobileapp">Read More</Link>
           </small>
         </div>
 
@@ -72,7 +73,7 @@ const WeOfferBestServices = () => {
             features of our website development are secure websites...
           </p>
           <small className="text-gray-700 hover:border-4 hover:border-[#6c63ff] rounded-lg p-2 hover:font-medium">
-            Read More
+            <Link href="/services/webdesign">Read More</Link>
           </small>
         </div>
       </div>

@@ -43,15 +43,13 @@ const Footer = () => {
         <div>
           <p className="font-bold text-slate-600">Services</p>
           <p className="text-slate-500">
-            <Link href="https:/smartfreight.ashmif.com">
-              Web Design & Development
-            </Link>
+            <Link href="/services/webdesign">Web Design & Development</Link>
           </p>
           <p className="text-slate-500">
-            <Link href="https:/smartrealtors.app">Web Apps</Link>
+            <Link href="/services/webapps">Web Apps</Link>
           </p>
           <p className="text-slate-500">
-            <Link href="https:/virtuo.ashmif.com">Mobile Apps</Link>
+            <Link href="/services/mobileapp">Mobile Apps</Link>
           </p>
         </div>
       </Box>
