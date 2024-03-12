@@ -38,8 +38,8 @@ const MainContent = () => {
         </div>
         <div>
           <p className="text-2xl pt-4 text-slate-800">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            nemo laudantium necessitatibus ipsam.
+            Constantly working to upgrade existing solutions & Develop new
+            products.
           </p>
         </div>
       </Box>

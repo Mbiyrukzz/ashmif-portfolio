@@ -25,10 +25,16 @@ const LoadingMainPage = () => {
           </p>
         </div>
       </Box>
-      <Box className="border-4 rounded-2xl border-[#6c63ff]">
+      <Box>
         <div>
-          <Skeleton count={3} />
+          <Skeleton count={18} />
         </div>
+      </Box>
+      <Box>
+        {' '}
+        <h1 className="text-center font-bold text-gray-900 text-4xl mt-10 ">
+          <Skeleton className="justify-center" count={3} />
+        </h1>
       </Box>
     </Grid>
   )

@@ -2,16 +2,16 @@ import '@radix-ui/themes/styles.css'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Theme, ThemePanel } from '@radix-ui/themes'
+import { Theme } from '@radix-ui/themes'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
-import AllRIghts from './components/AllRIghts'
+import AllRightsReserved from './components/AllRightsReserved'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Ashmif',
-  description: 'Ashmif Office Solutions',
+  title: 'AOS',
+  description: 'Ashmif Office Solutions (AOS)',
 }
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
           <NavBar />
           <main className="p-5">{children}</main>
           <Footer />
-          <AllRIghts />
+          <AllRightsReserved />
         </Theme>
       </body>
     </html>
