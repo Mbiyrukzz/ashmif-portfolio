@@ -1,13 +1,23 @@
+'use client'
+
 import { Box, Grid, Heading } from '@radix-ui/themes'
 import { FaCopyright } from 'react-icons/fa'
-
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 
+import { useState, useEffect } from 'react'
+
 const Footer = () => {
+  const [year, setYear] = useState(new Date().getFullYear())
+
+  useEffect(() => {
+    // Update the year when the component mounts
+    setYear(new Date().getFullYear())
+  }, [])
+
   return (
-    <footer>
+    <footer className="">
       <Grid columns="5" className="border-t p-3 px-10">
         <Box className="">
           <Image
@@ -20,7 +30,7 @@ const Footer = () => {
           <Box className="flex items-center">
             <p className="mr-1 text-slate-500">Copyright</p>
             <FaCopyright />
-            <p className="ml-1 text-slate-500">2024</p>
+            <p className="ml-1 text-slate-500">{year}</p>
           </Box>
           <p className="text-slate-500">Let Our Solutions Work For You</p>
           <p className="text-slate-500">+254112178212/ +254703649140</p>
