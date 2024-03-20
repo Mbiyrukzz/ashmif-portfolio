@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Grid, Heading } from '@radix-ui/themes'
+import { Box, Grid } from '@radix-ui/themes'
 import { FaCopyright } from 'react-icons/fa'
 import Image from 'next/image'
 import React from 'react'
