@@ -17,7 +17,7 @@ const Footer = () => {
   }, [])
 
   return (
-    <footer className="">
+    <footer className="sm:w-1/2 mx-auto md:w-full">
       <Grid columns="5" className="border-t p-3 px-10">
         <Box className="">
           <Image

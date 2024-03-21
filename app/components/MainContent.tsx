@@ -9,10 +9,10 @@ const MainContent = () => {
   return (
     <Grid columns="2" gap="5" className="justify-between p-10">
       <Box>
-        <div className="text-start flex-row space-y-10">
+        <div className="text-start flex-row space-y-10 sm:w-1/2 mx-auto md:w-full">
           <h1 className="pt-5 m-auto font-normal text-start text-6xl">
             Innovate your Business with Custom{' '}
-            <p className="text-[#6c63ff] font-semibold">
+            <p className="text-[#6c63ff] font-semibold sm:w-1/2 mx-auto md:w-full">
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={[
@@ -32,12 +32,12 @@ const MainContent = () => {
           </h1>
         </div>
         <div>
-          <p className="text-2xl text-start pt-3 text-slate-600">
+          <p className="text-2xl text-start pt-3 text-slate-600 sm:w-1/2 mx-auto md:w-full">
             "Let OUR Solutions WORK For YOU!"
           </p>
         </div>
         <div>
-          <p className="text-2xl pt-4 text-slate-800">
+          <p className="text-2xl pt-4 text-slate-800 sm:w-1/2 mx-auto md:w-full">
             Constantly working to upgrade existing solutions & Develop new
             products.
           </p>
@@ -49,7 +49,7 @@ const MainContent = () => {
           height="720"
           width="560"
           alt="mainphoto"
-          className="border-4 rounded-2xl border-[#6c63ff]"
+          className="border-4 rounded-2xl border-[#6c63ff] sm:w-1/2 mx-auto md:w-full"
         />
       </Box>
     </Grid>

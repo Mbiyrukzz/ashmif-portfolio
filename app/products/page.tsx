@@ -1,10 +1,17 @@
 import React from 'react'
 import HireUs from '../components/HireUs'
+import SmartRealtors from './SmartRealtors'
+import SmartFreight from './SmartFreight'
+import Virtuo from './Virtuo'
 
 const ProductsDetailsPage = () => {
   return (
     <div>
-      <p>This Page is Currenttly Under Maintenance</p>
+      <div className="flex justify-between items-center">
+        <SmartRealtors />
+        <SmartFreight />
+        <Virtuo />
+      </div>
       <HireUs />
     </div>
   )
