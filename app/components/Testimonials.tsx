@@ -81,7 +81,7 @@ const Testimonials = () => {
               <div className="flex items-center gap-4">
                 <img
                   alt=""
-                  src="/sflogo.png"
+                  src="/mg.png"
                   className="size-14 rounded-full object-cover"
                 />
 
