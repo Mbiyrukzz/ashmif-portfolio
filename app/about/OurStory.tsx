@@ -15,7 +15,7 @@ const OurStory = () => {
             and desktop apps development and graphic designing. With a team of
             highly qualified, experienced, and passionate professionals who
             strive to provide customers with unparalleled Services and Products.
-            <h1 className="text-2xl font-bold text-[#8338ec] mt-4 ">
+            <h1 className="text-2xl font-bold text-[#6c63ff] mt-4 ">
               OUR VISION
             </h1>
             <p className="text-xl font-normal  text-slate-600">
@@ -25,12 +25,12 @@ const OurStory = () => {
           </p>
         </div>
         <div className="w-1/2 p-2">
-          <h1 className="text-2xl font-bold text-[#8338ec] ">OUR VISION</h1>
+          <h1 className="text-2xl font-bold text-[#6c63ff] ">OUR VISION</h1>
           <p className="text-xl font-normal text-slate-600">
             Enable enterprises leverage technology for business growth and
             success.
           </p>
-          <h1 className="text-2xl font-bold text-[#8338ec] mt-4">
+          <h1 className="text-2xl font-bold text-[#6c63ff] mt-4">
             OUR MISSION
           </h1>
           <p className="text-xl font-normal  text-slate-600">
@@ -43,13 +43,6 @@ const OurStory = () => {
             results.
           </p>
         </div>
-        {/* <div>
-          <h1 className="text-2xl font-normal">OUR VISION</h1>
-          <p className="text-xl font-normal">
-            Enable enterprises leverage technology for business growth and
-            success
-          </p>
-        </div> */}
       </Box>
     </Flex>
   )

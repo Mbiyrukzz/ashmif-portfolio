@@ -33,7 +33,7 @@ const Footer = () => {
             <p className="ml-1 text-slate-500">{year}</p>
           </Box>
           <p className="text-slate-500">Let Our Solutions Work For You</p>
-          <p className="text-slate-500">+254112178212/ +254703649140</p>
+          <p className="text-slate-500">+254715781587/ +254703649140</p>
           <p className="text-slate-500">hello@ashmif.com</p>
         </Box>
         <Box className="space-y-8 tracking-wide pt-5">

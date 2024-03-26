@@ -18,7 +18,7 @@ const Testimonials = () => {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-[#6c63ff]">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
@@ -68,10 +68,12 @@ const Testimonials = () => {
               </div>
 
               <p className="mt-4 text-gray-500 font-light">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+                I believe, any engineering team should be able to understand the
+                requirements, deliver on time, deliver according to the
+                requirements. With Ashmif Office Solutions we have found the
+                team that can provide all three. It’s a great team with
+                excellent communication skills that made a difference in our
+                business.
               </p>
             </blockquote>
 
@@ -84,7 +86,7 @@ const Testimonials = () => {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-[#6c63ff]">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
@@ -134,10 +136,10 @@ const Testimonials = () => {
               </div>
 
               <p className="mt-4 text-gray-500 font-light">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+                AOS listened to our needs and made sure we were getting the
+                correct value for the service provided. Their leadership
+                recognized our requirements and their groups efforts
+                materialized. It became a very cohesive relationship.
               </p>
             </blockquote>
 
@@ -150,7 +152,7 @@ const Testimonials = () => {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-[#6c63ff]">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
@@ -200,10 +202,11 @@ const Testimonials = () => {
               </div>
 
               <p className="mt-4 text-gray-500 font-light">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+                I chose AOS because we received great customer service from the
+                first inquiry, the team is very professional, the work agreement
+                is reassuring, and the testimonials on the website were good.
+                Overall, a very professional experience, great process, and
+                really friendly and committed team.
               </p>
             </blockquote>
           </div>
